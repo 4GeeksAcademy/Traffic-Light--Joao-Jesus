@@ -11,7 +11,24 @@
 
 */
 
+.container {
+    width: 140px;
+    margin-top: 50px;
+}
+
+.bar {
+    max-width: 20px;
+    height: 120px;
+    display: flex;
+    margin-left: 48px;
+}
+
+.backGround {
+    background-color: black;
+    border-radius: 15%;
+}
 .BtnRed {
+    margin-top: 10px;
     background-color: black;
     border-radius: 50%;
     width: 100px;
@@ -57,7 +74,7 @@
 }
 
 .BtnPurple {
-    
+    margin-bottom: 10px;
 }
 
 .BtnPurple.active {
@@ -65,5 +82,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    
+    padding: 2px;
+    margin-bottom: 10px;
+    color: purple
 }

@@ -9,28 +9,30 @@ const Trafficlight = () => {
     
 
     return (
-        <div className='container text-center'>
-            <p>Traffic Light</p>
-            <div className='Red'>
+        <div className='container text-center text-white'>
+            <div className='bar bg-dark'></div>
+            <div className='backGround'>
+            <div className='Red p-2'>
                 <button className={`BtnRed ${color === 'red' ? 'active' : ''}`} type="button" onClick={() => changeColor("red")}>
                    
                 </button>
             </div>
-            <div className='Yellow'>
+            <div className='Yellow p-2'>
                 <button className={`BtnYellow ${color === 'yellow' ? 'active' : ''}`} type="button" onClick={() => changeColor("yellow")}>
                   
                 </button>
             </div>
-            <div className='Green'>
+            <div className='Green p-2'>
                 <button className={`BtnGreen ${color === 'green' ? 'active' : ''}`} type="button" onClick={() => changeColor("green")}>
                    
                 </button>
             </div>
             <div className='Purple'>
                 <button className={`BtnPurple ${color === 'purple' ? 'active' : ''}`} type="button" onClick={() => changeColor("purple")}>
-                  Add Purple light! 
+                  click to add Purple light! 
                 </button>
             </div>
+        </div>
         </div>
     );
 };
