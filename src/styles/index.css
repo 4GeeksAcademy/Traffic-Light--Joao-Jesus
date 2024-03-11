@@ -10,3 +10,60 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.BtnRed {
+    background-color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;  
+}
+
+
+.BtnRed.active {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.BtnYellow {
+    background-color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+
+}
+
+.BtnYellow.active {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+}
+
+.BtnGreen {
+    background-color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.BtnGreen.active {
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.BtnPurple {
+    
+}
+
+.BtnPurple.active {
+    background-color: purple;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
